@@ -41,8 +41,18 @@ ScrollReveal().reveal('.bottom', {origin: 'bottom'})
 
 
 const typed = new Typed('.multiple-text', {
-    // UPDATED STRINGS FOR VISHNU
-    strings: ['Software Engineer', 'Web Developer', 'Java Developer', 'AI Enthusiast', 'Cloud Practitioner'],
+    strings: [
+    'Software Engineer',
+    'Full Stack Developer',
+    'Backend Developer',
+    'MERN Stack Developer',
+    'Web Developer',
+    'Java Developer',
+    'Passionate AI/ML Enthusiast',
+    'Cloud Practitioner',
+    'DevOps Enthusiast',
+    'Problem Solver'
+],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
