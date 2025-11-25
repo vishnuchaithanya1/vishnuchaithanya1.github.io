@@ -98,7 +98,7 @@ span {
 
 .my-img img {
     margin: 0 auto;
-    width: 30rem; /* Adjust image size here */
+    width: 30rem; 
     border-radius: 50%;
     border: .2rem solid var(--main-color);
     box-shadow: 0 0 2rem var(--main-color);
@@ -455,11 +455,11 @@ span {
     transform: translateY(-3px);
 }
 
-/* ----- CERTIFICATIONS SECTION (UPDATED: Now Dark Background) ----- */
+/* ----- CERTIFICATIONS SECTION ----- */
 .certifications {
     min-height: auto;
     padding-bottom: 5rem;
-    background: var(--bg-color); /* Changed to Dark */
+    background: var(--bg-color); 
 }
 
 .certifications .certifications-row {
@@ -497,7 +497,7 @@ span {
     margin-bottom: 2rem;
 }
 
-/* Hover Effect for Certifications (Must be Light since background is Dark) */
+/* Hover Effect for Certifications */
 .certifications-content .content::before {
     content: '';
     position: absolute;
@@ -505,7 +505,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--second-bg-color); /* Changed to Light for contrast */
+    background: var(--second-bg-color);
     z-index: -1;
     transition: .5s;
 }
@@ -540,11 +540,11 @@ span {
     color: var(--text-color);
 }
 
-/* PORTFOLIO SECTION (UPDATED: Now Light Background) */
+/* PORTFOLIO SECTION */
 .portfolio {
     min-height: auto;
     padding-bottom: 7rem;
-    background: var(--second-bg-color); /* Changed to Light */
+    background: var(--second-bg-color); 
 }
 
 .portfolio h2 {
@@ -626,10 +626,10 @@ span {
     color: var(--second-bg-color);
 }
 
-/* CONTACT SECTION (UPDATED: Now Dark Background) */
+/* CONTACT SECTION */
 .contact {
     padding-bottom: 7rem;
-    background-color: var(--bg-color); /* Changed to Dark */
+    background-color: var(--bg-color); 
 }
 
 .contact form {
@@ -925,16 +925,14 @@ span {
     font-weight: 500;
 }
 
-/* Add padding to the right of the Job Title (h3) so it doesn't overlap the location on small screens */
 .education-content .content h3 {
     padding-right: 10rem; 
 }
 
-/* On very small screens, adjust positioning slightly if needed */
 @media (max-width: 450px) {
     .education-content .content h3 {
-        padding-right: 0; /* Remove padding on small screens so title wraps normally */
-        margin-top: 2rem; /* Push title down slightly */
+        padding-right: 0; 
+        margin-top: 2rem;
     }
     .education-content .content .location-marker {
        font-size: 1.2rem;
