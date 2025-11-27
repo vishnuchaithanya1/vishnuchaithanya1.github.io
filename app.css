@@ -910,9 +910,6 @@ span {
     }
 }
 
-/* --- CSS for Top-Right Location Marker --- */
-
-/* Position the location marker absolutely in the top right */
 .education-content .content .location-marker {
     position: absolute;
     top: 1.5rem;   /* Aligns with the container's top padding */
@@ -925,20 +922,7 @@ span {
     font-weight: 500;
 }
 
-.education-content .content h3 {
-    padding-right: 10rem; 
-}
-
-@media (max-width: 450px) {
-    .education-content .content h3 {
-        padding-right: 0; 
-        margin-top: 2rem;
-    }
-    .education-content .content .location-marker {
-       font-size: 1.2rem;
-    }
-}
-
+/* Smaller list font + spacing for bullets */
 .education-content .content ul,
 .certifications-content .content ul {
     padding-left: 2.2rem; 
@@ -949,7 +933,6 @@ span {
     font-size: 1.45rem;
     line-height: 1.55;
 }
-
 
 
 /* ANIMATION */
