@@ -939,6 +939,19 @@ span {
     }
 }
 
+.education-content .content ul,
+.certifications-content .content ul {
+    padding-left: 2.2rem; 
+}
+
+.education-content .content li,
+.certifications-content .content li {
+    font-size: 1.45rem;
+    line-height: 1.55;
+}
+
+
+
 /* ANIMATION */
 @keyframes aboutSpinner {
     100% {
