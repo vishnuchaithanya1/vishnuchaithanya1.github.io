@@ -387,7 +387,7 @@ span {
     padding-top: .5rem;
 }
 
-/* SKILLS SECTION (Light Background) */
+/* ==================== SKILLS SECTION (UPDATED) ==================== */
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
@@ -398,6 +398,7 @@ span {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2.5rem;
+    align-items: start; /* Prevents boxes from stretching unequally */
 }
 
 .skills-category .title {
@@ -442,9 +443,20 @@ span {
     border: .2rem solid var(--main-color);
     padding: .8rem 1.5rem;
     border-radius: .8rem;
-    display: inline-block;
     transition: .3s;
     font-weight: 500;
+    
+    /* Flexbox for Icon alignment */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+/* Icon Design */
+.skill-tag i {
+    font-size: 1.9rem;
+    color: var(--main-color);
+    transition: .3s;
 }
 
 .skill-tag:hover {
@@ -453,6 +465,10 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
     cursor: default;
     transform: translateY(-3px);
+}
+
+.skill-tag:hover i {
+    color: var(--bg-color); /* Icon turns dark on hover to match text */
 }
 
 /* ----- CERTIFICATIONS SECTION ----- */
