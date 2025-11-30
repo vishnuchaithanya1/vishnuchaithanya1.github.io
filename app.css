@@ -534,12 +534,15 @@ span {
     font-size: 4rem; 
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: var(--main-color);
+    color: #ffffff !important;
+}
+.achievements-box h3 span {
+    color: #ffffff !important;
 }
 
 .achievements-box p {
     font-size: 1.6rem;
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .knight-box .icon-circle i {
